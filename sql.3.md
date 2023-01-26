@@ -5,7 +5,7 @@ Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden ger�
 3. film tablosunda bulunan title sütunundaki film isimlerinden en az 4 adet büyük ya da küçük harf farketmesizin 'T' karakteri içeren film isimlerini sıralayınız.
 4. film tablosunda bulunan tüm sütunlardaki verilerden title 'C' karakteri ile başlayan ve uzunluğu (length) 90 dan büyük olan ve rental_rate 2.99 olan verileri sıralayınız.
 
-- `SELECT * FROM country WHERE country LIKE 'A%a'
-- `SELECT * FROM country WHERE country LIKE '_____n'
-- `SELECT * FROM film WHERE title ILIKE 't%'
-- `SELECT * FROM film WHERE title LIKE 'C%' AND (length > 90 AND rental_rate = 2.99)
+- `SELECT * FROM country WHERE country LIKE 'A%a'`
+- `SELECT * FROM country WHERE country LIKE '_____n'`
+- `SELECT * FROM film WHERE title ILIKE 't%'`
+- `SELECT * FROM film WHERE title LIKE 'C%' AND (length > 90 AND rental_rate = 2.99)`
